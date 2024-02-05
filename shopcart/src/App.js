@@ -9,6 +9,7 @@ import { products } from "./Products";
 import Cart from "./Cart";
 import DisplayProducts from "./DisplayProducts";
 import Nav from "./Nav";
+import SignIn from "./SignIn";
 
 const maxPurchase = 20;
 
@@ -67,6 +68,8 @@ class App extends Component {
                 />
               }
             />
+            {/* Sign In Page */}
+            <Route path="/signin" element={<SignIn />} />
           </Routes>
         </div>
       </Router>
